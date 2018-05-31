@@ -22,7 +22,13 @@ $(document).ready(function() {
            var href = $(this).attr('href');
             if ($(this).attr('title')) {
                 var caption = $(this).attr('title');
-                $('.sb-items').append('<div class="sb-item"><div class="sb-caption">'+ caption +'</div><img src="'+ href + '"/></div>');
+                var caps = caption.split('\\n');
+                var child = '<div class="sb-item"><div class="sb-caption">';
+                for (var i = 0; i < caps.length; i++) {
+                    child += '<p class="sb-sub-item">' + caps[i] + '</p>';
+                }
+                child += '</div><img src="'+ href + '"/></div>';
+                $('.sb-items').append(child);
             }   
             else {
                   $('.sb-items').append('<div class="sb-item"><img src="'+ href + '"/></div>');

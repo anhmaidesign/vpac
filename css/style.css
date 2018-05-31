@@ -52,7 +52,7 @@ input[type="submit"],.w3agile_contact_right_agileinfo p a,.w3_copy_right p a{
 }
 .navigation-right{
 	float:right;
-	margin: 1em 0 0;
+	margin: 35px 0 0;
 }
 .navigation-right ul li{
 	display:inline-block;
@@ -1795,4 +1795,22 @@ div#myTabContent {
 }
 #application-form {
 	padding: 5em 4em 2em 2em;
+}
+
+.sb-sub-item{
+	text-align: left;
+	text-transform: none;
+	font-size: 1.2em;
+}
+.sb-caption {
+	color: black !important;
+	top: 50% !important;
+	background: rgba(255,255,255,0.9) !important;
+	padding-bottom: 30px !important;
+}
+#section-donate {
+	padding-bottom: 50px;
+}
+.scroll {
+	white-space: nowrap;
 }
