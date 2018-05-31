@@ -1790,3 +1790,9 @@ div#myTabContent {
 	font-size: 1.8em;
 	color: #4BC319;
 }
+#application {
+	background: #F7F7F7;
+}
+#application-form {
+	padding: 5em 4em 2em 2em;
+}
