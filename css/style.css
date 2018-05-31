@@ -745,7 +745,7 @@ select#country,select#country1{
     position: relative;
     left: 100%;
     margin-top: 37px;
-    font-size: 30px;
+    font-size: 1.2em;
     margin: 2em 0 1em;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -870,7 +870,7 @@ div#myTabContent {
 	padding:9.9em 13em 5em 5em;
 }
 .w3agile_contact_left{
-	background:#F7F7F7;
+	/* background:#F7F7F7; */
 }
 .w3agile_contact_right{
 	background:#5DCD2F;
@@ -1019,7 +1019,7 @@ div#myTabContent {
 		height: 243.5px;
 	}
 	.w3agile_gallery_grid figcaption h4 {
-		font-size: 25px;
+		font-size: 1.2em;
 	}
 	.w3_copy_right {
 		margin:5.4em 0 0;
@@ -1647,7 +1647,7 @@ div#myTabContent {
 	}
 	.w3agile_gallery_grid figcaption h4 {
 		margin-top: 55px;
-		font-size: 1.8em;
+		font-size: 1.2em;
 	}
 	.w3agile_contact_right_agileinfo {
 		width: 80%;
@@ -1750,7 +1750,7 @@ div#myTabContent {
 	}
 	.w3agile_gallery_grid figcaption h4 {
 		margin-top: 25px;
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 	.modal-header {
 		font-size: 1.6em;

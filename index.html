@@ -27,6 +27,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--webfont-->
 <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
@@ -326,20 +327,17 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<div class="clearfix"> </div>
 </div>
 <!-- //application -->
-<!-- gallery -->
+<!-- news -->
 <div class="gallery" id="news">
-		<h3>Get Involved</h3>
+		<h3>News</h3>
 		<div class="w3agile_gallery_grids">
 			<div class="col-md-6 w3agile_gallery_grid">
 				<div class="w3agile_gallery_image">
-					<a class="sb" href="photo/_MG_6003.JPG" title="The Arts Center will need volunteers that help with the day to day operations of the organization, assisting both the artists and staff as various needs arise. Volunteers will also be needed for fundraising events and activities, as well as increasing community awareness of the organization through various methods.">
+					<a class="sb" href="photo/news1.jpg" title="The Arts Center will need volunteers that help with the day to day operations of the organization, assisting both the artists and staff as various needs arise. Volunteers will also be needed for fundraising events and activities, as well as increasing community awareness of the organization through various methods.">
 						<figure>
-							<img src="photo/_MG_6003.JPG" alt="" class="img-responsive" />
+							<img src="photo/news1.jpg" alt="" class="img-responsive" />
 							<figcaption>
-								<h4>Volunteers</h4>
-								<p>
-										The Arts Center will need volunteers that help with the day to day operations of the organization, assisting both the artists and staff as various needs arise. Volunteers will also be needed for fundraising events and activities, as well as increasing community awareness of the organization through various methods.
-								</p>
+								<h4>Emergence; An Exhibition of Initial Works By Vibrant Palette Arts Center</h4>
 							</figcaption>
 						</figure>
 					</a>
@@ -351,43 +349,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<figure>
 							<img src="photo/_MG_6007.JPG" alt="" class="img-responsive" />
 							<figcaption>
-								<h4>Board of Directors</h4>
-								<p>
-										The policy making and governing body of the Arts Center. Responsible for a dynamic, creative, and quality organization. The board will both initiate and be responsive to new ideas. Its ongoing job is to ensure immediate and long-term survival of the organization. This will be accomplished by digging its roots deeply into the Seattle community and responding to the community needs.
-								</p>
+								<h4>Annual Art Supplies Generosity Campaign</h4>
 							</figcaption>
 						</figure>
 					</a>
 				</div>
 			</div>
-			<div class="col-md-6 w3agile_gallery_grid">
-				<div class="w3agile_gallery_image">
-					<a class="sb" href="photo/_MG_6017.JPG">
-						<figure>
-							<img src="photo/_MG_6017.JPG" alt="" class="img-responsive" />
-							<figcaption>
-								<h4>Peer Artists</h4>
-								<p>
-										At Vibrant Palette Arts Center, we believe developing friendships with artists of all strengths and abilities is a necessity for creating an inclusive art community in Seattle. The Peer Artist program is our way of creating that inclusive space.
-								</p>
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6 w3agile_gallery_grid">
-					<div class="w3agile_gallery_image">
-						<a class="sb" href="photo/_MG_5937.JPG">
-							<figure>
-								<img src="photo/_MG_5937.JPG" alt="" class="img-responsive" />
-								<figcaption>
-									<h4>Donate</h4>
-									<p>Your support is vital to our success — without you, we cannot make this a reality. We’ve got levels of support for every budget, and your donation is 100% tax-deductible.</p>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-				</div>
 			<div class="clearfix"> </div>
 		</div>
 		<script type="text/javascript" src="js/smoothbox.jquery2.js"></script>
@@ -397,35 +364,37 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<div class="contact" id="contact">
 		<div class="col-md-6 w3agile_contact_left">
 			<h3>Contact Us</h3>
-			<p>Excepteur sint occaecat cupidatat non proident, sunt 
-				in culpa qui officia deserunt mollit anim id est laborum reprehenderit in voluptate velit esse 
-				cillum dolore eu fugiat nulla pariatur.</p>
+			<p>If you would like further information, we’d love to hear from you!</p>
 			<form action="#" method="post">
-				<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-				<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-				<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+				<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name (required)';}" required="">
+				<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email (required)';}" required="">
+				<input type="text" name="Subject" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'YSubject* (required)';}" required="">
+				<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Message* (required)';}" required="">Your Message* (required)</textarea>
 				<input type="submit" value="Send">
 			</form>
 		</div>
 		<div class="col-md-6 w3agile_contact_right">
-			<h3><a href="index.html">Schooling</a></h3>
+			<h3><a href="index.html">Vibrant Palette Arts Center</a></h3>
 			<div class="col-xs-6 w3agile_contact_right_agileinfo">
 				<h4>Address</h4>
-				<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>8921 California Long Beach <i>PO Box 8921 202 East Ocean.</i></p>
+				<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> 2323 Elliott Ave, Seattle, WA 98121</p>
 				<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>(+) 0983 010 823</p>
 				<p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">info@example.com</a></p>
 			</div>
 			<div class="col-xs-6 w3agile_contact_right_agileinfo">
 				<h4>Follow Us</h4>
 				<div class="agileits_social_icons">
-					<a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
-					<a href="#" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
-					<a href="#" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
+					<a href="#" class="icon-button facebook"
+						><i class="icon-facebook"></i>
+					</a>
+					<a href="#" class="icon-button twitter"
+						><i class="icon-twitter"></i>
+					</a>
 				</div>
 			</div>
 			<div class="clearfix"> </div>
 			<div class="w3_copy_right">
-				<p>© 2016 Schooling. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+				<p>© 2018 Vibrant Palete Art Center. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
 			</div>
 		</div>
 		<div class="clearfix"> </div>
