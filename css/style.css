@@ -257,11 +257,9 @@ button.close {
     width: 100%;
 }
 .banner-bottom-image-text-left h3,.w3agile_contact_left h3,.agileits_about_grid_left h3{
-	font-size: 2.5em;
+	font-size: 2em;
     color: #212121;
-    line-height: 1.5em;
     position: relative;
-	padding-bottom:.5em;
 	font-family: 'Open Sans', sans-serif;
 }
 .banner-bottom-image-text-left h3:before,.banner-bottom-image-text-left h3:after,.w3agile_contact_left h3:before,.w3agile_contact_left h3:after,.agileits_about_grid_left h3:before,.agileits_about_grid_left h3:after{
@@ -287,7 +285,7 @@ button.close {
 }
 .banner-bottom-image-text-left h4{
 	text-transform: capitalize;
-    font-size: 1.5em;
+    font-size: 1em;
     color: #5E5E5E;
     padding-left: 3em;
     line-height: 2em;
@@ -356,15 +354,15 @@ p.nostrud{
     text-align: center;
 }
 .view {
-    margin: 0;
+    margin: 0 auto;
     float: none;
     overflow: hidden;
     position: relative;
     text-align: center;
 }
 .view,.view .mask,.view .content{
-	width: 255px;
-    height: 298px;
+	width: 300px;
+    height: 450px;
 }
 .view .mask,.view .content {
    position: absolute;
@@ -611,7 +609,7 @@ a.icon-button.google-plus:hover .icon-google-plus:before{
 /*-- //team --*/
 /*-- team-bottom --*/
 .team-bottom{
-	background:url(../images/7.jpg) no-repeat 0px 0px;
+	background:url(../photo/_MG_6003.JPG) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -1005,17 +1003,17 @@ div#myTabContent {
 /*-----start-responsive-design------*/
 @media (max-width:1680px){
 	.banner-bottom-image-text-left {
-		padding: 5em 10em 8.95em 20em;
+		padding: 5em 10em 8.95em 10em;
 	}
 }
 @media (max-width:1600px){
 	.banner-bottom-image-text-left {
-		padding: 5em 10em 6.95em 18em;
+		padding: 5em 10em 6.95em 9em;
 	}
 }
 @media (max-width: 1440px){
 	.banner-bottom-image-text-left {
-		padding: 4em 10em 3.95em 11em;
+		padding: 4em 10em 3.95em 5em;
 	}
 	.w3agile_gallery_grid figure {
 		height: 243.5px;
@@ -1780,4 +1778,15 @@ div#myTabContent {
 }
 #banner-logo{
 	width: 200px;
+}
+.paragraph-title{
+	font-size: 2em;
+	color: #4BC319;
+}
+#founder-note {
+	margin-top: 50px;
+}
+#board-directors {
+	font-size: 1.8em;
+	color: #4BC319;
 }
