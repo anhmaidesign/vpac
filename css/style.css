@@ -45,7 +45,7 @@ input[type="submit"],.w3agile_contact_right_agileinfo p a,.w3_copy_right p a{
 }
 .navigation{
 	padding:3em 0;
-	background:#000;
+	background:rgba(0, 0, 0, 0.2);
 }
 .logo{
 	float:left;
@@ -65,11 +65,11 @@ input[type="submit"],.w3agile_contact_right_agileinfo p a,.w3_copy_right p a{
 	text-transform:uppercase;
 }
 .navigation-right ul li.active a{
-	color:#EEE048;
+	color:#FEDB77;
 }
 .navigation {
     padding:1em 0em;
-    background:rgba(0, 0, 0, 0.53);
+    background:rgba(0, 0, 0, 0.2);
 }
 span.menu{
 	display:none;
@@ -89,8 +89,8 @@ span.menu{
 	overflow: hidden;
 	padding: 10px 0;
 	max-width: 0;
-	border-bottom: 2px solid #EEE048;
-    color: #EEE048;
+	border-bottom: 2px solid #FEDB77;
+    color: #FEDB77;
 	content: attr(data-hover);
 	-webkit-transition: max-width 0.5s;
 	-moz-transition: max-width 0.5s;
@@ -144,7 +144,7 @@ span.menu{
 }
 .w3ls_banner_info h3:after{
 	content:'';
-	background:#96F070;
+	background:#049797;
 	height:1px;
 	width:30%;
 	position:absolute;
@@ -158,7 +158,7 @@ span.menu{
 }
 .modal-header {
     font-size: 2em;
-    color:#4BC319;
+    color:#049797;
 }
 .close {
     opacity: 1;
@@ -171,7 +171,7 @@ span.menu{
     text-transform: capitalize;
     text-decoration: none;
     padding: 8px 40px;
-    background: #4BC319;
+    background: #049797;
     color: #fff;
 }
 .modal-body p {
@@ -212,7 +212,7 @@ button.close {
 	left: 50%;
 	right: 50%;
 	bottom: 0;
-	background: #3A9E10;
+	background: #049797;
     height: 3px;
 	-webkit-transition-property: left, right;
 	transition-property: left, right;
@@ -232,7 +232,7 @@ button.close {
 .wthree_banner_bottom_right h3{
 	text-transform: capitalize;
     font-size: 1.8em;
-    color: #4BC319;
+    color: #049797;
     line-height: 1.5em;
 }
 .wthree_banner_bottom_right p{
@@ -248,7 +248,7 @@ button.close {
 .banner-bottom-image-text-left{
 	padding:5em 10em 6.95em 18em;
 /*-- agileits --*/
-	background:#EEE048;
+	background:#FEDB77;
 }
 .banner-bottom-image-text-right{
 	padding:0;
@@ -309,7 +309,7 @@ button.close {
 }
 .team h3,.team-bottom h3,.gallery h3,.testimonials h3{
 	font-size: 2.5em;
-    color: #4BC319;
+    color: #049797;
     padding-bottom:.7em;
     position: relative;
     font-family: 'Open Sans', sans-serif;
@@ -376,7 +376,7 @@ p.nostrud{
 }
 .view h5 {
 	text-transform: capitalize;
-    color:#EEE048;
+    color:#FEDB77;
     text-align: center;
     position: relative;
     font-size: 1.7em;
@@ -557,7 +557,7 @@ p.nostrud{
 	margin: -1.8rem;
 }
 .twitter span,.facebook span,.google-plus span,.pinterest span {
-	background-color:#EEE048;
+	background-color:#FEDB77;
 }
 /* Icons */
 .icon-button i {
@@ -677,7 +677,7 @@ select#country,select#country1{
     margin: 4em 0 0 20em;
 }
 .reservation input[type="submit"]:hover{
-	background: #EEE048;
+	background: #FEDB77;
     border: 1px solid #BDAF21;
     color: #212121;
 }
@@ -739,7 +739,7 @@ select#country,select#country1{
     transform: rotate(360deg);
 }
 .w3agile_gallery_grid figcaption h4 {
-    color: #EEE048;
+    color: #FEDB77;
     padding: 0px 20px;
     margin-bottom: 0;
     position: relative;
@@ -873,7 +873,7 @@ div#myTabContent {
 	/* background:#F7F7F7; */
 }
 .w3agile_contact_right{
-	background:#5DCD2F;
+	background:#049797;
 }
 .w3agile_contact_left p {
     color: #212121;
@@ -904,11 +904,11 @@ div#myTabContent {
     width: 30%;
     font-size: 14px;
     color: #fff;
-    background: #4BC319;
+    background: #049797;
     margin: 3em 0 0;
 }
 .w3agile_contact_left input[type="submit"]:hover{
-	background:#EEE048;
+	background:#FEDB77;
 	color:#212121;
 }
 .w3agile_contact_right h3 a{
@@ -1781,14 +1781,14 @@ div#myTabContent {
 }
 .paragraph-title{
 	font-size: 2em;
-	color: #4BC319;
+	color: #049797;
 }
 #founder-note {
 	margin-top: 50px;
 }
 #board-directors {
 	font-size: 1.8em;
-	color: #4BC319;
+	color: #049797;
 }
 #application {
 	background: #F7F7F7;
